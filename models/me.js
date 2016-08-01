@@ -6,6 +6,7 @@ const meSchema = new mongoose.Schema({
   phone: String,
   dob: String,
   links: [String],
+  linknames: [String],
   education: [String],
   description: String,
   work: String,
