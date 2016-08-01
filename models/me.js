@@ -4,7 +4,7 @@ const meSchema = new mongoose.Schema({
   name: String,
   dob: String,
   links: [String],
-  education: String,
+  education: [String],
   description: String,
   work: String,
   projects: [String],

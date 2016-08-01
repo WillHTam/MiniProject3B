@@ -11,7 +11,7 @@ var me = [{
   name: 'William H. Tam',
   dob: 'January 14, 1989',
   links: ['https://github.com/willhtam'],
-  education: 'BA Economics & Environment, University of California Berkeley',
+  education: ['BA Economics & Environment, University of California Berkeley', 'Web Development Immersive, General Assembly'],
   description: 'Full Stack Developer',
   work: 'Analyst, Northstar Pacific Capital',
   projects: ['collabdraw', 'potatobutton'],
