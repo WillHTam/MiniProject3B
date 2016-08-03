@@ -3,7 +3,8 @@ const bodyParser = require('body-parser')
 const ejs = require('ejs')
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://cat:cat@ds139645.mlab.com:39645/myself')
+// require('dotenv').config()
+mongoose.connect(process.env.MONGODB_URI)
 
 const logger = require('morgan')
 const appController = require('./controllers/application_controller')
