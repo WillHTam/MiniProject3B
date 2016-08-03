@@ -2,9 +2,9 @@
   "name": "mewebsite",
   "version": "1.0.0",
   "description": "API about me",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "source .env; node app.js",
+    "start": "node app.js",
     "dev": "nodemon app.js",
     "test": "mocha"
   },
@@ -23,5 +23,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "supertest": "^2.0.0"
+  },
+  "engines": {
+    "node": "6.2.2"
   }
 }
