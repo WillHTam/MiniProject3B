@@ -1,11 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const port = process.env.PORT || 3000
 const mongoose = require('mongoose')
-
-const dotenv = require('dotenv')
-dotenv.load()
-
+const port = process.env.PORT || 3000
 const logger = require('morgan')
 const appController = require('./controllers/application_controller')
 var routes = require('./routes/index')
