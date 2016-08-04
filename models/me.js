@@ -10,6 +10,7 @@ const meSchema = new mongoose.Schema({
   education: [String],
   description: String,
   work: String,
+  devicons: [String],
   projects: [String],
   projectlinks: [String],
   skills: [String]
